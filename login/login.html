@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rean</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-screen flex justify-center items-center font-sans bg-gray-200">
+    <div class="grid grid-cols-1 lg:grid-cols-[2fr_3fr] h-[600px] w-[900px] gap-0 bg-white">
+        <div class="bg-blue-900 rounded-r-4xl flex justify-center items-center text-white gap-2 font-bold ">
+            <h2 class="text-4xl ">Welcome to</h2>
+            <div class="flex flex-col justify-center text-yellow-400">
+                <h3 class=" text-xl">Rean</h3>
+                <p>High School</p>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <form class="flex flex-col gap-5">
+                <div class="flex justify-center items-center pb-10 gap-4">
+                    <h1 class="text-4xl font-bold text-blue-900">Login</h1>
+                    <h1 class="text-4xl font-bold">or</h1>
+                    <h1 class="text-4xl font-bold text-yellow-500">Sign up</h1>
+                </div>              
+                <div class="flex flex-col justify-center gap-2">
+                    <label for="#school">School</label>
+                    <select name="school" id="school" class="border-2 border-gray-300 p-2 pl-5 pr-15 rounded-lg">
+                        <option value="" disabled selected hidden>Select your school</option>
+                        <option value="A">High school A</option>
+                        <option value="B">High school B</option>
+                        <option value="C">High school C</option>
+                    </select>
+                </div>
+                <div class="flex flex-col justify-center gap-2">
+                    <label for="#name">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" class="border-2 border-gray-300 p-2 pl-5 pr-15 rounded-lg">
+                </div>
+                <div class="flex flex-col justify-center gap-2 pb-10">
+                    <label for="#numID">ID</label>
+                    <input type="text" name="id" id="numID" placeholder="Enter your id" class="border-2 border-gray-300 p-2 pl-5 pr-15 rounded-lg">
+                </div>
+                <button class="bg-blue-900 p-3 text-white text-xl rounded-2xl">Go</button>
+
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
