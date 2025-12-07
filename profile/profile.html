@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rean</title>
     <link rel="stylesheet" href="rean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class=" font-sans bg-white h-full text-blue-900 flex justify-center items-start">
-    <div class=" w-full max-w-[1200px] h-screen ">
-        <header class="flex justify-between items-center gap-130 pb-20 pt-6">
+    <div class=" w-full max-w-[1200px] h-screen">
+        <header class="flex justify-between items-center gap20 lg:gap-130 pb-20 pt-6">
             <div class=" flex items-center gap-4 hover:cursor-pointer"  id="logo">
                 <div class="h-15 w-30 bg-amber-300 flex items-center justify-center text-white font-bold shadow-lg text-2xl rounded-2xl">REAN</div>
                 <div>
@@ -25,6 +26,42 @@
                 <a href="../profile/profile.html" id="welcomeText" class=" bg-yellow-500 text-white px-3 py-2 rounded-md font-semibold hover:text-black" >Welcome</a>        
             </nav>
         </header>
+        <section class="flex flex-col justify-center items-center">
+           <div class="bg-gray-200 w-1/2 flex flex-col items-center gap-10 p-10 rounded-2xl shadow-lg">
+                <div >
+                    <i class="fa-regular fa-user text-9xl"></i>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 w-full bg-blue-200 rounded-2xl">
+                    <div class=" flex flex-col gap-4 p-5">
+                        <h3>Name</h3>
+                        <h3>Gender</h3>
+                        <h3>ID</h3>
+                        <h3>Date of Birth</h3>
+                        <h3>Grade</h3>
+                        <h3>Year</h3>
+                        <h3>Phone Number</h3>
+                        <h3>Father's Name</h3>
+                        <h3>Mother's Name</h3>
+                        <h3>Address</h3>
+                    </div>
+                    <div class=" flex flex-col gap-4 p-5">
+                        <h3>Name</h3>
+                        <h3>Gender</h3>
+                        <h3>ID</h3>
+                        <h3>Date of Birth</h3>
+                        <h3>Grade</h3>
+                        <h3>Year</h3>
+                        <h3>Phone Number</h3>
+                        <h3>Father's Name</h3>
+                        <h3>Mother's Name</h3>
+                        <h3>Address</h3>
+                    </div>
+                    
+                    
+                </div>
+           </div>
+            
+        </section>
     </div>
     <script src="profile.js"></script>
 </body>
