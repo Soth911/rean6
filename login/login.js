@@ -23,3 +23,31 @@ document.querySelector("button").addEventListener("click",function(event){
     window.location.href="../rean/rean.html";
 
 });
+
+gsap.from("#right", {
+    x: -400,
+    opacity: 0,
+    duration: 1.2,
+    ease: "power3.out"
+});
+
+gsap.from("#welcome", {
+    x: -100,
+    opacity: 0,
+    delay: 0.5,
+    duration: 0.8
+});
+
+gsap.from("#logo", {
+    x: -100,
+    opacity: 0,
+    delay: 0.8,
+    duration: 0.8
+});
+
+gsap.from("#login", {
+    x: 400,
+    opacity: 0,
+    duration: 1.2,
+    ease: "power3.out"
+});
